@@ -44,6 +44,7 @@
     </android.support.design.widget.TextInputLayout>
 
     <RadioGroup
+        android:id="@+id/radiogroupT"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
 
@@ -85,7 +86,8 @@
     <Spinner
         android:id="@+id/spinner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:entries="@arrays/kota" />
 
     <TextView
         android:id="@+id/textView4"
