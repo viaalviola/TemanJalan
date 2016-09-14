@@ -2,6 +2,7 @@ package id.sch.smktelkom_mlg.tugas01.xirpl4032.temanjalan;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -35,5 +36,17 @@ public class MainActivity extends AppCompatActivity {
         cbT = (CheckBox) findViewById(R.id.checkBoxTU);
         cbL = (CheckBox) findViewById(R.id.checkBoxL);
 
+        buttonOK.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                doProcess();
+
+            }
+        });
+
+    }
+
+    private void doProcess() {
     }
 }
